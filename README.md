@@ -75,3 +75,52 @@ Objects and arrays can be nested within each other
 
 
 
+## Rest
+
+### What is REST?
+- Represntational State Transfer
+- A request is the client asking "what is my state"
+- A response is the server saying "I am trasferring you some data that represents the state"
+- Auth:
+  - Client must prove identity to the server
+  - Authentication:
+    - Username and password
+  - Authorization:
+    -  Use token
+    -  Authority to make a request
+ - OAuth is a popular platform 
+- REST is a design pattern and not a protocol 
+  - A protocol needs to be exact, a design pattern is a bit more flexible
+  - REST is a deisgn pattern with guidelines to follow but the guidelines are not very strict
+
+
+### HTTP
+- Like all web APIs, REST uses HTTP to send messages
+  - HyperText Transfer Protocol
+- An HTTP address is a URL just like for web pages
+- HTTP has different verbs it can use (GET, POST, DELETE)
+- Secure HTTP (https) is another option 
+
+### Resources
+- A resource is a piece of data that represents something
+- If you are making a request about users then the URL should have the word users in it 
+- Eg: `http://api.example.com/users`
+- Or `http://api.example.com/users/12345` where 12345 is the ID of a prticular user
+
+### Data Format
+- REST is independent of format
+- The data sent and returned can be of any format
+  - JSON
+  - XML
+  - Media types like images, sound files etc
+
+### Statelessness
+- "Stateless" means that the server does not keep track of the state of the client
+- Example: pagination
+ 
+### REST vs SOAP
+- Simple Object Access Protocol
+- Previously the most common web API
+- Not actually all that simple
+- XML only
+- Protocol instead of design pattern so very fixed and rigid in nature
