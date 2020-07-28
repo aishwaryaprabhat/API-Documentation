@@ -1,10 +1,26 @@
 # API-Documentation
 Cheatsheet/Guide for writing API Documentation
 
-## What are APIs?
+## Introduction
+
+### What are APIs?
 - Application Programming Interface
 - How two pieces of software talk to each other
 - APIs allow developers to create apps that "mash up" data from different sources
+
+### What is REST?
+- Represntational State Transfer
+- A request is the client asking "what is my state"
+- A response is the server saying "I am trasferring you some data that represents the state"
+- Auth:
+  - Client must prove identity to the server
+  - Authentication:
+    - Username and password
+  - Authorization:
+    -  Use token
+    -  Authority to make a request
+ - OAuth is a popular platform 
+
 
 ## General Data Types
 - Integers (int)
