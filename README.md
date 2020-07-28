@@ -45,15 +45,17 @@ Objects and arrays can be nested within each other
 - Start with a one sentence description
 - JSON details are best documented in one or more tables
 - Good to also include additional information
-- JSON responses: 
+- One possible way of documentation is by using tables
+  - JSON responses: 
 
-| Element  | Description  | Type   | Notes   | 
-|---|---|---|---|
+  | Element  | Description  | Type   | Notes   | 
+  |---|---|---|---|
 
 
-- JSON requests:
+  - JSON requests:
 
-| Element  | Description  | Type   | Required   | Notes |
-|---|---|---|---|---|
+  | Element  | Description  | Type   | Required   | Notes |
+  |---|---|---|---|---|
+
 
 
