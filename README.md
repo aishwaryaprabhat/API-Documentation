@@ -124,3 +124,34 @@ Objects and arrays can be nested within each other
 - Not actually all that simple
 - XML only
 - Protocol instead of design pattern so very fixed and rigid in nature
+
+
+### Requests
+
+#### Anatomy of a Request
+- Different types of data are stored in different parts of the request
+
+![](images/Screenshot%202020-07-28%20at%205.14.11%20PM.png)
+- Methods:
+  - The action you want to take (on or using the data)
+  - Eg: GET, POST, DELETE
+- URL:
+  - Uniform Resource Locator
+  - Can start with http or https to specify the protocol being used (http or https)
+  - Followed by server information (api.example.com)
+  - Followed by resource information (user)
+- Query Parameters
+  - Usually contains information on how the data should be returned
+  - Key value pairs
+- Headers
+  - Headers are used for specific types od data
+  - There are standard headers to use for HTTP requests
+  - Most commonly used for:
+    - Data formats (JSON, XML etc)
+    - Authorization
+- Body
+  - Used when sending a significant amount of data to the server
+  - Can be any format:
+    - Usually JSON or XML
+    - Can be a media file
+- Only have a body for POST and PUT; GET and DELETE don't have bodies
