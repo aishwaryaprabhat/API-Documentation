@@ -38,3 +38,22 @@ XML has one type:
 - null: no quotation marks
 - Arrays: comma separated lists; can have multiple data types inside them
 - Objects: JSON dictionaries, key-value pairs separated by commas; keys and values can be any data type
+
+Objects and arrays can be nested within each other
+
+### Documenting JSON
+- Start with a one sentence description
+- JSON details are best documented in one or more tables
+- Good to also include additional information
+- JSON responses: 
+
+| Element  | Description  | Type   | Notes   | 
+|---|---|---|---|
+
+
+- JSON requests:
+
+| Element  | Description  | Type   | Required   | Notes |
+|---|---|---|---|---|
+
+
